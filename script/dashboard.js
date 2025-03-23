@@ -104,7 +104,7 @@ window.addEventListener("load", () => {
 particlesJS("particles-js", {
   particles: {
     number: {
-      value: 10, // Número de partículas (corazones)
+      value: 50, // Número de partículas (corazones)
       density: {
         enable: true,
         value_area: 800,
@@ -149,7 +149,8 @@ const mensajes = [
   "Gracias por hacerme tan feliz. 😊",
   "Eres la mejor parte de mi día. ☀️",
   "Mi corazón late por ti. 💓",
-  "Soporto tus berrinces solo por que te amo",
+  "Soporto tus berrinces solo por que te amo 🥰",
+  "Soy controlado por tus ojos 🥰"
 ];
 
 const mensajeTexto = document.getElementById("mensaje-texto");

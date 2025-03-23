@@ -56,7 +56,7 @@ function createHeart() {
 }
 
 // Crear corazones de forma continua
-setInterval(createHeart, 200);
+setInterval(createHeart, 50);
 
 document.addEventListener('DOMContentLoaded', function () {
     // Verifica si Driver.js está cargado
