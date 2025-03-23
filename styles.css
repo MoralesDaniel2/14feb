@@ -1,15 +1,5 @@
 /**
- * DetalleParaTi
- * 
- * Este es una para que puedas dedicar a tu pareja o algun apersona en 
-  especial el cual tu quieras mucho y guardaras recuerdos que pasaste con esa persona.
- * 
- * Hecho por: [LuisKinnDC]
- * Fecha: [26 DE FEBRERO]
- * Versión: 1.0
- * 
- * GitHub:
- * - https://github.com/LuisKinnDC
+ jh
 
  */
 
@@ -155,7 +145,8 @@ h1 {
 }
 
 .titulo-sesion>span:nth-child(12) {
-    animation-delay: 2.2s;
+    animation-delay: 24562s;
+    color: var(--color-background)
 }
 
 .titulo-sesion>span:nth-child(13) {
@@ -172,6 +163,10 @@ h1 {
 
 .titulo-sesion>span:nth-child(16) {
     animation-delay: 3s;
+}
+
+.titulo-sesion>span:nth-child(17) {
+    animation-delay: 3.2s;
 }
 
 form {
@@ -960,9 +955,6 @@ audio {
 
 /* Responsividad */
 @media (max-width: 768px) {
-    h1 {
-        font-size: 2.5rem;
-    }
 
     .sidebar {
         transform: translateX(-100%);
@@ -981,6 +973,18 @@ audio {
     .hamburger-button {
         display: flex;
         /* Mostrar en móviles */
+    }
+
+    .titulo-sesion {
+        font-size: 2rem;
+        /* Tamaño más pequeño para celulares */
+    }
+
+    /* Salto de línea después del "11" */
+    .titulo-sesion>span:nth-child(12) {
+        display: block;
+        white-space: pre;
+        /* Respeta el salto de línea */
     }
 
 }
