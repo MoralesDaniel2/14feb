@@ -30,11 +30,11 @@
 /* Modo Oscuro */
 .dark-mode {
 
-    --color-primary: #007796;
+    --color-primary: #ff00b7;
     /* Color principal (modo oscuro) */
-    --color-secondary: #00b3ce;
+    --color-secondary: #ec4ebf;
     /* Color secundario (modo oscuro) */
-    --color-background: #00283e;
+    --color-background: #3e0035;
     /* Fondo oscuro (modo oscuro) */
     --color-text: #ffffff;
     /* Texto claro (modo oscuro) */
